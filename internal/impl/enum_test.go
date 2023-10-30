@@ -7,9 +7,9 @@ package impl_test
 import (
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
 
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
 )
 
 func TestEnum(t *testing.T) {

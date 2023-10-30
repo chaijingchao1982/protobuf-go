@@ -12,17 +12,17 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/chaijingchao1982/protobuf/encoding/prototext"
-	"github.com/chaijingchao1982/protobuf/internal/protobuild"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/testing/protocmp"
-	"github.com/chaijingchao1982/protobuf/testing/protopack"
-	"github.com/chaijingchao1982/protobuf/types/dynamicpb"
+	"github.com/chaijingchao1982/protobuf-go/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf-go/internal/protobuild"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/testing/protocmp"
+	"github.com/chaijingchao1982/protobuf-go/testing/protopack"
+	"github.com/chaijingchao1982/protobuf-go/types/dynamicpb"
 
-	legacypb "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy"
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
-	test3pb "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
+	legacypb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/legacy"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
+	test3pb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test3"
 )
 
 type testMerge struct {

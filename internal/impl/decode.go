@@ -7,13 +7,13 @@ package impl
 import (
 	"math/bits"
 
-	"github.com/chaijingchao1982/protobuf/encoding/protowire"
-	"github.com/chaijingchao1982/protobuf/internal/errors"
-	"github.com/chaijingchao1982/protobuf/internal/flags"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
-	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf-go/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf-go/internal/errors"
+	"github.com/chaijingchao1982/protobuf-go/internal/flags"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoiface"
 )
 
 var errDecode = errors.New("cannot parse invalid wire-format data")

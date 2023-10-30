@@ -8,10 +8,10 @@
 package news
 
 import (
-	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
-	anypb "github.com/chaijingchao1982/protobuf/types/known/anypb"
-	timestamppb "github.com/chaijingchao1982/protobuf/types/known/timestamppb"
+	protoreflect "github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf-go/runtime/protoimpl"
+	anypb "github.com/chaijingchao1982/protobuf-go/types/known/anypb"
+	timestamppb "github.com/chaijingchao1982/protobuf-go/types/known/timestamppb"
 	reflect "reflect"
 	sync "sync"
 )

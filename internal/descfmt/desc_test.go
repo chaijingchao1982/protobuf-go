@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/internal/descfmt"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/internal/descfmt"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
 
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
 )
 
 // TestDescriptorAccessors tests that descriptorAccessors is up-to-date.

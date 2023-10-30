@@ -9,12 +9,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/chaijingchao1982/protobuf/internal/detrand"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf-go/internal/detrand"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/testing/protopack"
 
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
 )
 
 func init() {

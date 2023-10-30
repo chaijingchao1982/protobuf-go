@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chaijingchao1982/protobuf/encoding/protojson"
-	"github.com/chaijingchao1982/protobuf/internal/detrand"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protopath"
-	"github.com/chaijingchao1982/protobuf/reflect/protorange"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/testing/protopack"
-	"github.com/chaijingchao1982/protobuf/types/known/anypb"
-	"github.com/chaijingchao1982/protobuf/types/known/timestamppb"
+	"github.com/chaijingchao1982/protobuf-go/encoding/protojson"
+	"github.com/chaijingchao1982/protobuf-go/internal/detrand"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protopath"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protorange"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/testing/protopack"
+	"github.com/chaijingchao1982/protobuf-go/types/known/anypb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/timestamppb"
 
-	newspb "github.com/chaijingchao1982/protobuf/internal/testprotos/news"
+	newspb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/news"
 )
 
 func init() {

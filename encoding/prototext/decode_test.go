@@ -9,16 +9,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/encoding/prototext"
-	"github.com/chaijingchao1982/protobuf/internal/flags"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf-go/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf-go/internal/flags"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoregistry"
 
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
-	weakpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test/weak1"
-	pb2 "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb2"
-	pb3 "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb3"
-	"github.com/chaijingchao1982/protobuf/types/known/anypb"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
+	weakpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test/weak1"
+	pb2 "github.com/chaijingchao1982/protobuf-go/internal/testprotos/textpb2"
+	pb3 "github.com/chaijingchao1982/protobuf-go/internal/testprotos/textpb3"
+	"github.com/chaijingchao1982/protobuf-go/types/known/anypb"
 )
 
 func TestUnmarshal(t *testing.T) {

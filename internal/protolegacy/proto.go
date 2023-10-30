@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
-	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
-	"github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoimpl"
 )
 
 const (

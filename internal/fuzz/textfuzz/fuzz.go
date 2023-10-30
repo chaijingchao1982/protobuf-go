@@ -6,10 +6,10 @@
 package textfuzz
 
 import (
-	"github.com/chaijingchao1982/protobuf/encoding/prototext"
-	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf-go/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf-go/proto"
 
-	fuzzpb "github.com/chaijingchao1982/protobuf/internal/testprotos/fuzz"
+	fuzzpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/fuzz"
 )
 
 // Fuzz is a fuzzer for proto.Marshal and proto.Unmarshal.

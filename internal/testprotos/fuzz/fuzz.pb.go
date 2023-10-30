@@ -8,10 +8,10 @@
 package fuzz
 
 import (
-	test "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
-	test3 "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
-	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	test "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
+	test3 "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test3"
+	protoreflect "github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

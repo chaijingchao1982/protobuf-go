@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chaijingchao1982/protobuf/internal/encoding/defval"
-	"github.com/chaijingchao1982/protobuf/internal/filedesc"
-	"github.com/chaijingchao1982/protobuf/internal/strs"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/internal/encoding/defval"
+	"github.com/chaijingchao1982/protobuf-go/internal/filedesc"
+	"github.com/chaijingchao1982/protobuf-go/internal/strs"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
 )
 
 var byteType = reflect.TypeOf(byte(0))

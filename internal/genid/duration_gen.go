@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	protoreflect "github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
 )
 
 const File_google_protobuf_duration_proto = "google/protobuf/duration.proto"

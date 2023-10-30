@@ -7,16 +7,16 @@ package anypb_test
 import (
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/testing/protocmp"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/testing/protocmp"
 
 	"github.com/google/go-cmp/cmp"
 
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
-	apb "github.com/chaijingchao1982/protobuf/types/known/anypb"
-	epb "github.com/chaijingchao1982/protobuf/types/known/emptypb"
-	wpb "github.com/chaijingchao1982/protobuf/types/known/wrapperspb"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
+	apb "github.com/chaijingchao1982/protobuf-go/types/known/anypb"
+	epb "github.com/chaijingchao1982/protobuf-go/types/known/emptypb"
+	wpb "github.com/chaijingchao1982/protobuf-go/types/known/wrapperspb"
 )
 
 func mustMarshal(m proto.Message) []byte {

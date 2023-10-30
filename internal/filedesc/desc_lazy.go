@@ -8,12 +8,12 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/chaijingchao1982/protobuf/encoding/protowire"
-	"github.com/chaijingchao1982/protobuf/internal/descopts"
-	"github.com/chaijingchao1982/protobuf/internal/genid"
-	"github.com/chaijingchao1982/protobuf/internal/strs"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf-go/internal/descopts"
+	"github.com/chaijingchao1982/protobuf-go/internal/genid"
+	"github.com/chaijingchao1982/protobuf-go/internal/strs"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
 )
 
 func (fd *File) lazyRawInit() {

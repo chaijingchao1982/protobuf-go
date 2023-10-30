@@ -5,10 +5,10 @@
 package nullable
 
 import (
-	"github.com/chaijingchao1982/protobuf/encoding/prototext"
-	"github.com/chaijingchao1982/protobuf/encoding/protowire"
-	"github.com/chaijingchao1982/protobuf/runtime/protoimpl"
-	"github.com/chaijingchao1982/protobuf/types/descriptorpb"
+	"github.com/chaijingchao1982/protobuf-go/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf-go/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoimpl"
+	"github.com/chaijingchao1982/protobuf-go/types/descriptorpb"
 )
 
 type Proto2 struct {

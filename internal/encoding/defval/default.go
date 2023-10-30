@@ -14,9 +14,9 @@ import (
 	"math"
 	"strconv"
 
-	ptext "github.com/chaijingchao1982/protobuf/internal/encoding/text"
-	"github.com/chaijingchao1982/protobuf/internal/errors"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	ptext "github.com/chaijingchao1982/protobuf-go/internal/encoding/text"
+	"github.com/chaijingchao1982/protobuf-go/internal/errors"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
 )
 
 // Format is the serialization format used to represent the default value.

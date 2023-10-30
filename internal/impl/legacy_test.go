@@ -13,17 +13,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/chaijingchao1982/protobuf/encoding/prototext"
-	pimpl "github.com/chaijingchao1982/protobuf/internal/impl"
-	"github.com/chaijingchao1982/protobuf/internal/pragma"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protodesc"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
-	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf-go/encoding/prototext"
+	pimpl "github.com/chaijingchao1982/protobuf-go/internal/impl"
+	"github.com/chaijingchao1982/protobuf-go/internal/pragma"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protodesc"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoiface"
 
-	proto2_20180125 "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	"github.com/chaijingchao1982/protobuf/types/descriptorpb"
+	proto2_20180125 "github.com/chaijingchao1982/protobuf-go/internal/testprotos/legacy/proto2_20180125_92554152"
+	"github.com/chaijingchao1982/protobuf-go/types/descriptorpb"
 )
 
 type LegacyTestMessage struct {

@@ -5,12 +5,12 @@
 package proto
 
 import (
-	"github.com/chaijingchao1982/protobuf/encoding/protowire"
-	"github.com/chaijingchao1982/protobuf/internal/encoding/messageset"
-	"github.com/chaijingchao1982/protobuf/internal/order"
-	"github.com/chaijingchao1982/protobuf/internal/pragma"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf-go/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf-go/internal/encoding/messageset"
+	"github.com/chaijingchao1982/protobuf-go/internal/order"
+	"github.com/chaijingchao1982/protobuf-go/internal/pragma"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoiface"
 )
 
 // MarshalOptions configures the marshaler.

@@ -1,4 +1,4 @@
-module github.com/chaijingchao1982/protobuf
+module github.com/chaijingchao1982/protobuf-go
 
 go 1.11
 

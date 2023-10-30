@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/encoding/protojson"
-	"github.com/chaijingchao1982/protobuf/encoding/prototext"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/encoding/protojson"
+	"github.com/chaijingchao1982/protobuf-go/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
 
-	tpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	tpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
 )
 
 // The results of these microbenchmarks are unlikely to correspond well

@@ -10,8 +10,8 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"github.com/chaijingchao1982/protobuf/encoding/protowire"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
 )
 
 // sizeBool returns the size of wire encoding a bool pointer as a Bool.

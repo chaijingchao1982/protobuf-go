@@ -14,7 +14,7 @@ import (
 	"math"
 	"math/bits"
 
-	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf-go/internal/errors"
 )
 
 // Number represents the field number.

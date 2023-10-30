@@ -7,14 +7,14 @@ package impl
 import (
 	"reflect"
 
-	"github.com/chaijingchao1982/protobuf/internal/descopts"
-	"github.com/chaijingchao1982/protobuf/internal/encoding/messageset"
-	ptag "github.com/chaijingchao1982/protobuf/internal/encoding/tag"
-	"github.com/chaijingchao1982/protobuf/internal/filedesc"
-	"github.com/chaijingchao1982/protobuf/internal/pragma"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
-	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf-go/internal/descopts"
+	"github.com/chaijingchao1982/protobuf-go/internal/encoding/messageset"
+	ptag "github.com/chaijingchao1982/protobuf-go/internal/encoding/tag"
+	"github.com/chaijingchao1982/protobuf-go/internal/filedesc"
+	"github.com/chaijingchao1982/protobuf-go/internal/pragma"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoiface"
 )
 
 func (xi *ExtensionInfo) initToLegacy() {

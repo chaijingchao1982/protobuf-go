@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	"github.com/chaijingchao1982/protobuf/runtime/protoimpl"
-	"github.com/chaijingchao1982/protobuf/testing/protocmp"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoimpl"
+	"github.com/chaijingchao1982/protobuf-go/testing/protocmp"
 
 	"github.com/google/go-cmp/cmp"
 )

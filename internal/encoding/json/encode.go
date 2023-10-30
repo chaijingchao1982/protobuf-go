@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/chaijingchao1982/protobuf/internal/detrand"
-	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf-go/internal/detrand"
+	"github.com/chaijingchao1982/protobuf-go/internal/errors"
 )
 
 // kind represents an encoding type.

@@ -11,22 +11,22 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/chaijingchao1982/protobuf/encoding/protojson"
-	"github.com/chaijingchao1982/protobuf/internal/detrand"
-	"github.com/chaijingchao1982/protobuf/internal/flags"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
-	"github.com/chaijingchao1982/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf-go/encoding/protojson"
+	"github.com/chaijingchao1982/protobuf-go/internal/detrand"
+	"github.com/chaijingchao1982/protobuf-go/internal/flags"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf-go/testing/protopack"
 
-	pb2 "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb2"
-	pb3 "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb3"
-	"github.com/chaijingchao1982/protobuf/types/known/anypb"
-	"github.com/chaijingchao1982/protobuf/types/known/durationpb"
-	"github.com/chaijingchao1982/protobuf/types/known/emptypb"
-	"github.com/chaijingchao1982/protobuf/types/known/fieldmaskpb"
-	"github.com/chaijingchao1982/protobuf/types/known/structpb"
-	"github.com/chaijingchao1982/protobuf/types/known/timestamppb"
-	"github.com/chaijingchao1982/protobuf/types/known/wrapperspb"
+	pb2 "github.com/chaijingchao1982/protobuf-go/internal/testprotos/textpb2"
+	pb3 "github.com/chaijingchao1982/protobuf-go/internal/testprotos/textpb3"
+	"github.com/chaijingchao1982/protobuf-go/types/known/anypb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/durationpb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/emptypb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/fieldmaskpb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/structpb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/timestamppb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/wrapperspb"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/internal/flags"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/runtime/protoimpl"
-	"github.com/chaijingchao1982/protobuf/testing/prototest"
+	"github.com/chaijingchao1982/protobuf-go/internal/flags"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoimpl"
+	"github.com/chaijingchao1982/protobuf-go/testing/prototest"
 
-	irregularpb "github.com/chaijingchao1982/protobuf/internal/testprotos/irregular"
-	legacypb "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy"
-	legacy1pb "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
-	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/test/weak1"
-	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/test/weak2"
-	test3pb "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
+	irregularpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/irregular"
+	legacypb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/legacy"
+	legacy1pb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
+	_ "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test/weak1"
+	_ "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test/weak2"
+	test3pb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test3"
 )
 
 func Test(t *testing.T) {

@@ -10,15 +10,15 @@
 package textpb2
 
 import (
-	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
-	anypb "github.com/chaijingchao1982/protobuf/types/known/anypb"
-	durationpb "github.com/chaijingchao1982/protobuf/types/known/durationpb"
-	emptypb "github.com/chaijingchao1982/protobuf/types/known/emptypb"
-	fieldmaskpb "github.com/chaijingchao1982/protobuf/types/known/fieldmaskpb"
-	structpb "github.com/chaijingchao1982/protobuf/types/known/structpb"
-	timestamppb "github.com/chaijingchao1982/protobuf/types/known/timestamppb"
-	wrapperspb "github.com/chaijingchao1982/protobuf/types/known/wrapperspb"
+	protoreflect "github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf-go/runtime/protoimpl"
+	anypb "github.com/chaijingchao1982/protobuf-go/types/known/anypb"
+	durationpb "github.com/chaijingchao1982/protobuf-go/types/known/durationpb"
+	emptypb "github.com/chaijingchao1982/protobuf-go/types/known/emptypb"
+	fieldmaskpb "github.com/chaijingchao1982/protobuf-go/types/known/fieldmaskpb"
+	structpb "github.com/chaijingchao1982/protobuf-go/types/known/structpb"
+	timestamppb "github.com/chaijingchao1982/protobuf-go/types/known/timestamppb"
+	wrapperspb "github.com/chaijingchao1982/protobuf-go/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 )

@@ -11,13 +11,13 @@ package micro_test
 import (
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/internal/impl"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
-	"github.com/chaijingchao1982/protobuf/types/known/emptypb"
+	"github.com/chaijingchao1982/protobuf-go/internal/impl"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf-go/types/known/emptypb"
 
-	micropb "github.com/chaijingchao1982/protobuf/internal/testprotos/benchmarks/micro"
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	micropb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/benchmarks/micro"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
 )
 
 // BenchmarkEmptyMessage tests a google.protobuf.Empty.

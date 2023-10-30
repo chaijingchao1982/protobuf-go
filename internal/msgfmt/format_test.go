@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/chaijingchao1982/protobuf/internal/detrand"
-	"github.com/chaijingchao1982/protobuf/internal/msgfmt"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/testing/protocmp"
-	"github.com/chaijingchao1982/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf-go/internal/detrand"
+	"github.com/chaijingchao1982/protobuf-go/internal/msgfmt"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/testing/protocmp"
+	"github.com/chaijingchao1982/protobuf-go/testing/protopack"
 
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
-	textpb "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb2"
-	dynpb "github.com/chaijingchao1982/protobuf/types/dynamicpb"
-	anypb "github.com/chaijingchao1982/protobuf/types/known/anypb"
-	durpb "github.com/chaijingchao1982/protobuf/types/known/durationpb"
-	tspb "github.com/chaijingchao1982/protobuf/types/known/timestamppb"
-	wpb "github.com/chaijingchao1982/protobuf/types/known/wrapperspb"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
+	textpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/textpb2"
+	dynpb "github.com/chaijingchao1982/protobuf-go/types/dynamicpb"
+	anypb "github.com/chaijingchao1982/protobuf-go/types/known/anypb"
+	durpb "github.com/chaijingchao1982/protobuf-go/types/known/durationpb"
+	tspb "github.com/chaijingchao1982/protobuf-go/types/known/timestamppb"
+	wpb "github.com/chaijingchao1982/protobuf-go/types/known/wrapperspb"
 )
 
 func init() {

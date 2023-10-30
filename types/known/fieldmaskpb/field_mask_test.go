@@ -7,13 +7,13 @@ package fieldmaskpb_test
 import (
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf-go/proto"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
-	fmpb "github.com/chaijingchao1982/protobuf/types/known/fieldmaskpb"
+	testpb "github.com/chaijingchao1982/protobuf-go/internal/testprotos/test"
+	fmpb "github.com/chaijingchao1982/protobuf-go/types/known/fieldmaskpb"
 )
 
 func TestAppend(t *testing.T) {

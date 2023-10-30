@@ -7,7 +7,7 @@ package textfuzz
 import (
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/internal/fuzztest"
+	"github.com/chaijingchao1982/protobuf-go/internal/fuzztest"
 )
 
 func Test(t *testing.T) {

@@ -41,7 +41,7 @@
 // The Value, Struct, and ListValue types have generated MarshalJSON and
 // UnmarshalJSON methods such that they serialize JSON equivalent to what the
 // messages themselves represent. Use of these types with the
-// "github.com/chaijingchao1982/protobuf/encoding/protojson" package
+// "github.com/chaijingchao1982/protobuf-go/encoding/protojson" package
 // ensures that they will be serialized as their JSON equivalent.
 //
 // # Conversion to and from a Go interface
@@ -120,9 +120,9 @@ package structpb
 
 import (
 	base64 "encoding/base64"
-	protojson "github.com/chaijingchao1982/protobuf/encoding/protojson"
-	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
-	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	protojson "github.com/chaijingchao1982/protobuf-go/encoding/protojson"
+	protoreflect "github.com/chaijingchao1982/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf-go/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"

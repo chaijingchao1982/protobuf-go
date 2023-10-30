@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"github.com/chaijingchao1982/protobuf/encoding/prototext"
-	"github.com/chaijingchao1982/protobuf/proto"
-	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf-go/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf-go/proto"
+	"github.com/chaijingchao1982/protobuf-go/reflect/protoregistry"
 
-	pb2 "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb2"
-	"github.com/chaijingchao1982/protobuf/types/known/anypb"
-	"github.com/chaijingchao1982/protobuf/types/known/durationpb"
-	"github.com/chaijingchao1982/protobuf/types/known/emptypb"
-	"github.com/chaijingchao1982/protobuf/types/known/structpb"
-	"github.com/chaijingchao1982/protobuf/types/known/timestamppb"
-	"github.com/chaijingchao1982/protobuf/types/known/wrapperspb"
+	pb2 "github.com/chaijingchao1982/protobuf-go/internal/testprotos/textpb2"
+	"github.com/chaijingchao1982/protobuf-go/types/known/anypb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/durationpb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/emptypb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/structpb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/timestamppb"
+	"github.com/chaijingchao1982/protobuf-go/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {
