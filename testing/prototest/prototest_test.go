@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/runtime/protoimpl"
-	"google.golang.org/protobuf/testing/prototest"
+	"zero/protobuf/internal/flags"
+	"zero/protobuf/proto"
+	"zero/protobuf/runtime/protoimpl"
+	"zero/protobuf/testing/prototest"
 
-	irregularpb "google.golang.org/protobuf/internal/testprotos/irregular"
-	legacypb "google.golang.org/protobuf/internal/testprotos/legacy"
-	legacy1pb "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	_ "google.golang.org/protobuf/internal/testprotos/test/weak1"
-	_ "google.golang.org/protobuf/internal/testprotos/test/weak2"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	irregularpb "zero/protobuf/internal/testprotos/irregular"
+	legacypb "zero/protobuf/internal/testprotos/legacy"
+	legacy1pb "zero/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "zero/protobuf/internal/testprotos/test"
+	_ "zero/protobuf/internal/testprotos/test/weak1"
+	_ "zero/protobuf/internal/testprotos/test/weak2"
+	test3pb "zero/protobuf/internal/testprotos/test3"
 )
 
 func Test(t *testing.T) {

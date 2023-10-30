@@ -9,12 +9,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/protopack"
+	"zero/protobuf/internal/detrand"
+	"zero/protobuf/proto"
+	"zero/protobuf/reflect/protoreflect"
+	"zero/protobuf/testing/protopack"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	testpb "zero/protobuf/internal/testprotos/test"
 )
 
 func init() {

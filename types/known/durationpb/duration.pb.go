@@ -74,8 +74,8 @@
 package durationpb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "zero/protobuf/reflect/protoreflect"
+	protoimpl "zero/protobuf/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"

@@ -5,10 +5,10 @@
 package proto
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"zero/protobuf/encoding/protowire"
+	"zero/protobuf/internal/encoding/messageset"
+	"zero/protobuf/reflect/protoreflect"
+	"zero/protobuf/runtime/protoiface"
 )
 
 // Size returns the size in bytes of the wire-format encoding of m.

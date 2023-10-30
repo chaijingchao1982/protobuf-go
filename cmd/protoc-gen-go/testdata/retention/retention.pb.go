@@ -8,9 +8,9 @@
 package retention
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
+	protoreflect "zero/protobuf/reflect/protoreflect"
+	protoimpl "zero/protobuf/runtime/protoimpl"
+	descriptorpb "zero/protobuf/types/descriptorpb"
 	reflect "reflect"
 	sync "sync"
 )

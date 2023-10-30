@@ -16,15 +16,15 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/compiler/protogen"
-	"google.golang.org/protobuf/internal/encoding/tag"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/version"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoimpl"
+	"zero/protobuf/compiler/protogen"
+	"zero/protobuf/internal/encoding/tag"
+	"zero/protobuf/internal/genid"
+	"zero/protobuf/internal/version"
+	"zero/protobuf/reflect/protoreflect"
+	"zero/protobuf/runtime/protoimpl"
 
-	"google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/pluginpb"
+	"zero/protobuf/types/descriptorpb"
+	"zero/protobuf/types/pluginpb"
 )
 
 // SupportedFeatures reports the set of supported protobuf language features.
@@ -51,12 +51,12 @@ const (
 // patched to support unique build environments that impose restrictions
 // on the dependencies of generated source code.
 var (
-	protoPackage         goImportPath = protogen.GoImportPath("google.golang.org/protobuf/proto")
-	protoifacePackage    goImportPath = protogen.GoImportPath("google.golang.org/protobuf/runtime/protoiface")
-	protoimplPackage     goImportPath = protogen.GoImportPath("google.golang.org/protobuf/runtime/protoimpl")
-	protojsonPackage     goImportPath = protogen.GoImportPath("google.golang.org/protobuf/encoding/protojson")
-	protoreflectPackage  goImportPath = protogen.GoImportPath("google.golang.org/protobuf/reflect/protoreflect")
-	protoregistryPackage goImportPath = protogen.GoImportPath("google.golang.org/protobuf/reflect/protoregistry")
+	protoPackage         goImportPath = protogen.GoImportPath("zero/protobuf/proto")
+	protoifacePackage    goImportPath = protogen.GoImportPath("zero/protobuf/runtime/protoiface")
+	protoimplPackage     goImportPath = protogen.GoImportPath("zero/protobuf/runtime/protoimpl")
+	protojsonPackage     goImportPath = protogen.GoImportPath("zero/protobuf/encoding/protojson")
+	protoreflectPackage  goImportPath = protogen.GoImportPath("zero/protobuf/reflect/protoreflect")
+	protoregistryPackage goImportPath = protogen.GoImportPath("zero/protobuf/reflect/protoregistry")
 )
 
 type goImportPath interface {

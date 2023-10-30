@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/runtime/protoiface"
-	"google.golang.org/protobuf/runtime/protoimpl"
+	"zero/protobuf/reflect/protoreflect"
+	"zero/protobuf/reflect/protoregistry"
+	"zero/protobuf/runtime/protoiface"
+	"zero/protobuf/runtime/protoimpl"
 )
 
 const (

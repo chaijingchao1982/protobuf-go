@@ -14,11 +14,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
+	"zero/protobuf/encoding/protojson"
+	"zero/protobuf/encoding/prototext"
+	"zero/protobuf/proto"
 
-	pb "google.golang.org/protobuf/internal/testprotos/conformance"
+	pb "zero/protobuf/internal/testprotos/conformance"
 )
 
 func init() {

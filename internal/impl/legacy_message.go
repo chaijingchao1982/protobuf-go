@@ -10,13 +10,13 @@ import (
 	"strings"
 	"sync"
 
-	"google.golang.org/protobuf/internal/descopts"
-	ptag "google.golang.org/protobuf/internal/encoding/tag"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"zero/protobuf/internal/descopts"
+	ptag "zero/protobuf/internal/encoding/tag"
+	"zero/protobuf/internal/errors"
+	"zero/protobuf/internal/filedesc"
+	"zero/protobuf/internal/strs"
+	"zero/protobuf/reflect/protoreflect"
+	"zero/protobuf/runtime/protoiface"
 )
 
 // legacyWrapMessage wraps v as a protoreflect.Message,

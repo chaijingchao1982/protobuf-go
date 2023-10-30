@@ -8,11 +8,12 @@ import (
 	"reflect"
 	"testing"
 
+	"zero/protobuf/proto"
+	"zero/protobuf/reflect/protoreflect"
+	"zero/protobuf/runtime/protoimpl"
+	"zero/protobuf/testing/protocmp"
+
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoimpl"
-	"google.golang.org/protobuf/testing/protocmp"
 )
 
 func Test(t *testing.T) {

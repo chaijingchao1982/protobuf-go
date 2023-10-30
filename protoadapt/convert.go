@@ -6,9 +6,9 @@
 package protoadapt
 
 import (
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/runtime/protoiface"
-	"google.golang.org/protobuf/runtime/protoimpl"
+	"zero/protobuf/proto"
+	"zero/protobuf/runtime/protoiface"
+	"zero/protobuf/runtime/protoimpl"
 )
 
 // MessageV1 is the original [github.com/golang/protobuf/proto.Message] type.

@@ -9,8 +9,9 @@ import (
 	"sort"
 	"testing"
 
+	"zero/protobuf/reflect/protoreflect"
+
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 type fieldDesc struct {

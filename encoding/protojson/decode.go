@@ -11,16 +11,16 @@ import (
 	"strconv"
 	"strings"
 
-	"google.golang.org/protobuf/internal/encoding/json"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/internal/set"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"zero/protobuf/internal/encoding/json"
+	"zero/protobuf/internal/encoding/messageset"
+	"zero/protobuf/internal/errors"
+	"zero/protobuf/internal/flags"
+	"zero/protobuf/internal/genid"
+	"zero/protobuf/internal/pragma"
+	"zero/protobuf/internal/set"
+	"zero/protobuf/proto"
+	"zero/protobuf/reflect/protoreflect"
+	"zero/protobuf/reflect/protoregistry"
 )
 
 // Unmarshal reads the given []byte into the given [proto.Message].

@@ -5,7 +5,7 @@
 package protoimpl
 
 import (
-	"google.golang.org/protobuf/internal/version"
+	"zero/protobuf/internal/version"
 )
 
 const (

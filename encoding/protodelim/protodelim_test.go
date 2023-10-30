@@ -12,11 +12,12 @@ import (
 	"io"
 	"testing"
 
+	"zero/protobuf/encoding/protodelim"
+	"zero/protobuf/encoding/protowire"
+	"zero/protobuf/internal/testprotos/test3"
+	"zero/protobuf/testing/protocmp"
+
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/encoding/protodelim"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/testprotos/test3"
-	"google.golang.org/protobuf/testing/protocmp"
 )
 
 func TestRoundTrip(t *testing.T) {

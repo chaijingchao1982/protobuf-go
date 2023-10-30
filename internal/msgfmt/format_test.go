@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/msgfmt"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
-	"google.golang.org/protobuf/testing/protopack"
+	"zero/protobuf/internal/detrand"
+	"zero/protobuf/internal/msgfmt"
+	"zero/protobuf/proto"
+	"zero/protobuf/testing/protocmp"
+	"zero/protobuf/testing/protopack"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	textpb "google.golang.org/protobuf/internal/testprotos/textpb2"
-	dynpb "google.golang.org/protobuf/types/dynamicpb"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	durpb "google.golang.org/protobuf/types/known/durationpb"
-	tspb "google.golang.org/protobuf/types/known/timestamppb"
-	wpb "google.golang.org/protobuf/types/known/wrapperspb"
+	testpb "zero/protobuf/internal/testprotos/test"
+	textpb "zero/protobuf/internal/testprotos/textpb2"
+	dynpb "zero/protobuf/types/dynamicpb"
+	anypb "zero/protobuf/types/known/anypb"
+	durpb "zero/protobuf/types/known/durationpb"
+	tspb "zero/protobuf/types/known/timestamppb"
+	wpb "zero/protobuf/types/known/wrapperspb"
 )
 
 func init() {

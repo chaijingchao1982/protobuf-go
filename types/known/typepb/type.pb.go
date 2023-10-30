@@ -34,10 +34,10 @@
 package typepb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	sourcecontextpb "google.golang.org/protobuf/types/known/sourcecontextpb"
+	protoreflect "zero/protobuf/reflect/protoreflect"
+	protoimpl "zero/protobuf/runtime/protoimpl"
+	anypb "zero/protobuf/types/known/anypb"
+	sourcecontextpb "zero/protobuf/types/known/sourcecontextpb"
 	reflect "reflect"
 	sync "sync"
 )

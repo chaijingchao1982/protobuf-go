@@ -204,13 +204,13 @@ func writeSource(file, src string) {
 		"sync",
 		"unicode/utf8",
 		"",
-		"google.golang.org/protobuf/internal/descfmt",
-		"google.golang.org/protobuf/encoding/protowire",
-		"google.golang.org/protobuf/internal/errors",
-		"google.golang.org/protobuf/internal/strs",
-		"google.golang.org/protobuf/internal/pragma",
-		"google.golang.org/protobuf/reflect/protoreflect",
-		"google.golang.org/protobuf/runtime/protoiface",
+		"zero/protobuf/internal/descfmt",
+		"zero/protobuf/encoding/protowire",
+		"zero/protobuf/internal/errors",
+		"zero/protobuf/internal/strs",
+		"zero/protobuf/internal/pragma",
+		"zero/protobuf/reflect/protoreflect",
+		"zero/protobuf/runtime/protoiface",
 	} {
 		if pkg == "" {
 			imports = append(imports, "") // blank line between stdlib and proto packages

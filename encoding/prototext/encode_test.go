@@ -11,16 +11,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"zero/protobuf/encoding/prototext"
+	"zero/protobuf/internal/detrand"
+	"zero/protobuf/internal/flags"
+	"zero/protobuf/proto"
+	"zero/protobuf/reflect/protoregistry"
+	"zero/protobuf/testing/protopack"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	pb3 "google.golang.org/protobuf/internal/testprotos/textpb3"
-	"google.golang.org/protobuf/types/known/anypb"
+	pb2 "zero/protobuf/internal/testprotos/textpb2"
+	pb3 "zero/protobuf/internal/testprotos/textpb3"
+	"zero/protobuf/types/known/anypb"
 )
 
 func init() {

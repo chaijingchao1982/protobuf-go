@@ -1,4 +1,4 @@
-module google.golang.org/protobuf
+module zero/protobuf
 
 go 1.11
 
