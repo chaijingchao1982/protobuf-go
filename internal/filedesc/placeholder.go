@@ -5,9 +5,9 @@
 package filedesc
 
 import (
-	"zero/protobuf/internal/descopts"
-	"zero/protobuf/internal/pragma"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/internal/descopts"
+	"github.com/chaijingchao1982/protobuf/internal/pragma"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 var (

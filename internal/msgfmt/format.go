@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/detrand"
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/internal/order"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/detrand"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/internal/order"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 )
 
 // Format returns a formatted string for the message.

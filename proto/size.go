@@ -5,10 +5,10 @@
 package proto
 
 import (
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/encoding/messageset"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/messageset"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
 )
 
 // Size returns the size in bytes of the wire-format encoding of m.

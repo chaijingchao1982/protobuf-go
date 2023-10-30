@@ -27,17 +27,17 @@ import (
 	"strconv"
 	"strings"
 
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/internal/strs"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protodesc"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/internal/strs"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protodesc"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 
-	"zero/protobuf/types/descriptorpb"
-	"zero/protobuf/types/dynamicpb"
-	"zero/protobuf/types/pluginpb"
+	"github.com/chaijingchao1982/protobuf/types/descriptorpb"
+	"github.com/chaijingchao1982/protobuf/types/dynamicpb"
+	"github.com/chaijingchao1982/protobuf/types/pluginpb"
 )
 
 const goPackageDocURL = "https://protobuf.dev/reference/go/go-generated#package"
@@ -228,7 +228,7 @@ func (opts Options) New(req *pluginpb.CodeGeneratorRequest) (*Plugin, error) {
 	// .proto source file specifying the full import path of the Go package
 	// associated with this file.
 	//
-	//     option go_package = "zero/protobuf/types/known/anypb";
+	//     option go_package = "github.com/chaijingchao1982/protobuf/types/known/anypb";
 	//
 	// Alternatively, build systems which want to exert full control over
 	// import paths may specify M<filename>=<import_path> flags.
@@ -1235,7 +1235,7 @@ func newGoIdent(f *File, d protoreflect.Descriptor) GoIdent {
 }
 
 // A GoImportPath is the import path of a Go package.
-// For example: "zero/protobuf/compiler/protogen"
+// For example: "github.com/chaijingchao1982/protobuf/compiler/protogen"
 type GoImportPath string
 
 func (p GoImportPath) String() string { return strconv.Quote(string(p)) }

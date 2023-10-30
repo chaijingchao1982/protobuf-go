@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"unicode/utf8"
 
-	"zero/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
 )
 
 // call specifies which Decoder method was invoked.

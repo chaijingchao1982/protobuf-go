@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/strs"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/strs"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 // pointerCoderFuncs is a set of pointer encoding functions.

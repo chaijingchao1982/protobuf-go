@@ -18,14 +18,14 @@
 package conformance
 
 import (
-	protoreflect "zero/protobuf/reflect/protoreflect"
-	protoimpl "zero/protobuf/runtime/protoimpl"
-	anypb "zero/protobuf/types/known/anypb"
-	durationpb "zero/protobuf/types/known/durationpb"
-	fieldmaskpb "zero/protobuf/types/known/fieldmaskpb"
-	structpb "zero/protobuf/types/known/structpb"
-	timestamppb "zero/protobuf/types/known/timestamppb"
-	wrapperspb "zero/protobuf/types/known/wrapperspb"
+	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	anypb "github.com/chaijingchao1982/protobuf/types/known/anypb"
+	durationpb "github.com/chaijingchao1982/protobuf/types/known/durationpb"
+	fieldmaskpb "github.com/chaijingchao1982/protobuf/types/known/fieldmaskpb"
+	structpb "github.com/chaijingchao1982/protobuf/types/known/structpb"
+	timestamppb "github.com/chaijingchao1982/protobuf/types/known/timestamppb"
+	wrapperspb "github.com/chaijingchao1982/protobuf/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 )

@@ -8,15 +8,15 @@ import (
 	"strings"
 	"unicode"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/internal/filedesc"
-	"zero/protobuf/internal/flags"
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/internal/strs"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/internal/filedesc"
+	"github.com/chaijingchao1982/protobuf/internal/flags"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/internal/strs"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 
-	"zero/protobuf/types/descriptorpb"
+	"github.com/chaijingchao1982/protobuf/types/descriptorpb"
 )
 
 func validateEnumDeclarations(es []filedesc.Enum, eds []*descriptorpb.EnumDescriptorProto) error {

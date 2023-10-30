@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"zero/protobuf/internal/detrand"
-	"zero/protobuf/internal/pragma"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/internal/detrand"
+	"github.com/chaijingchao1982/protobuf/internal/pragma"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 type list interface {

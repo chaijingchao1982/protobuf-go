@@ -6,10 +6,10 @@ syntax = "proto3";
 
 package goproto.protoc.proto3;
 
-option go_package = "zero/protobuf/cmd/protoc-gen-go/testdata/proto3";
+option go_package = "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/proto3";
 
 enum Enum {
   ZERO = 0;
-  ONE = 1;
-  TWO = 2;
+  ONE  = 1;
+  TWO  = 2;
 }

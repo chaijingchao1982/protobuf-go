@@ -4,5 +4,5 @@
 
 syntax = "proto3";
 package fmt;
-option go_package = "zero/protobuf/cmd/protoc-gen-go/testdata/imports/fmt";
+option go_package = "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/imports/fmt";
 message M {}

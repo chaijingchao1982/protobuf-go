@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"zero/protobuf/internal/impl"
-	piface "zero/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf/internal/impl"
+	piface "github.com/chaijingchao1982/protobuf/runtime/protoiface"
 )
 
 // TestValidate tests the internal message validator.

@@ -9,10 +9,10 @@
 package filedesc
 
 import (
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 )
 
 // Builder construct a protoreflect.FileDescriptor from the raw descriptor.

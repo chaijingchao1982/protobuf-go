@@ -5,7 +5,7 @@
 syntax = "proto3";
 
 package google.golang.org;
-option go_package = "zero/protobuf/internal/testprotos/legacy";
+option go_package = "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy";
 
 // This file imports other files generated from a build of protoc-gen-go
 // locked to a specific version. For all imports, they were built using
@@ -18,7 +18,7 @@ option go_package = "zero/protobuf/internal/testprotos/legacy";
 //
 // To avoid a dependency on the v1 module, we perform the following
 // import path replacement to all generated .pb.go files:
-//	"github.com/golang/protobuf/proto" => "zero/protobuf/internal/protolegacy"
+//	"github.com/golang/protobuf/proto" => "github.com/chaijingchao1982/protobuf/internal/protolegacy"
 
 // The oldest supported version of protoc-gen-go is 2fc053c5,
 // which finished adding descriptor methods to all protobuf types.
@@ -61,16 +61,16 @@ import "internal/testprotos/legacy/proto2_20190205_c823c79e/test.proto"; // v1.3
 import "internal/testprotos/legacy/proto3_20190205_c823c79e/test.proto"; // v1.3.0
 
 message Legacy {
-	google.golang.org.proto2_20160225.Message f1 = 1;
-	google.golang.org.proto3_20160225.Message f2 = 2;
-	google.golang.org.proto2_20160519.Message f3 = 3;
-	google.golang.org.proto3_20160519.Message f4 = 4;
-	google.golang.org.proto2_20180125.Message f5 = 5;
-	google.golang.org.proto3_20180125.Message f6 = 6;
-	google.golang.org.proto2_20180430.Message f7 = 7;
-	google.golang.org.proto3_20180430.Message f8 = 8;
-	google.golang.org.proto2_20180814.Message f9 = 9;
-	google.golang.org.proto3_20180814.Message f10 = 10;
-	google.golang.org.proto2_20190205.Message f11 = 11;
-	google.golang.org.proto3_20190205.Message f12 = 12;
+  google.golang.org.proto2_20160225.Message f1  = 1;
+  google.golang.org.proto3_20160225.Message f2  = 2;
+  google.golang.org.proto2_20160519.Message f3  = 3;
+  google.golang.org.proto3_20160519.Message f4  = 4;
+  google.golang.org.proto2_20180125.Message f5  = 5;
+  google.golang.org.proto3_20180125.Message f6  = 6;
+  google.golang.org.proto2_20180430.Message f7  = 7;
+  google.golang.org.proto3_20180430.Message f8  = 8;
+  google.golang.org.proto2_20180814.Message f9  = 9;
+  google.golang.org.proto3_20180814.Message f10 = 10;
+  google.golang.org.proto2_20190205.Message f11 = 11;
+  google.golang.org.proto3_20190205.Message f12 = 12;
 }

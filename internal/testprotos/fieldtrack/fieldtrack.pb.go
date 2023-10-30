@@ -8,11 +8,11 @@
 package fieldtrack
 
 import (
-	_ "zero/protobuf/internal/testprotos/annotation"
-	test "zero/protobuf/internal/testprotos/test"
-	proto "zero/protobuf/proto"
-	protoreflect "zero/protobuf/reflect/protoreflect"
-	protoimpl "zero/protobuf/runtime/protoimpl"
+	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/annotation"
+	test "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	proto "github.com/chaijingchao1982/protobuf/proto"
+	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

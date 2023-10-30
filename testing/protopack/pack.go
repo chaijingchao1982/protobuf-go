@@ -21,8 +21,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 // Number is the field number; aliased from the [protowire] package for convenience.

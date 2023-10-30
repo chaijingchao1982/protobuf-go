@@ -10,7 +10,7 @@ package strs
 import (
 	"unsafe"
 
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 type (

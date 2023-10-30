@@ -13,17 +13,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"zero/protobuf/encoding/prototext"
-	pimpl "zero/protobuf/internal/impl"
-	"zero/protobuf/internal/pragma"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protodesc"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
-	"zero/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	pimpl "github.com/chaijingchao1982/protobuf/internal/impl"
+	"github.com/chaijingchao1982/protobuf/internal/pragma"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protodesc"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
 
-	proto2_20180125 "zero/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	"zero/protobuf/types/descriptorpb"
+	proto2_20180125 "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
+	"github.com/chaijingchao1982/protobuf/types/descriptorpb"
 )
 
 type LegacyTestMessage struct {

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 
 	"github.com/google/go-cmp/cmp"
 )

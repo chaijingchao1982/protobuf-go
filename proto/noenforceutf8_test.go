@@ -7,16 +7,16 @@ package proto_test
 import (
 	"reflect"
 
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/internal/filedesc"
-	"zero/protobuf/internal/flags"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protodesc"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/runtime/protoimpl"
-	"zero/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/internal/filedesc"
+	"github.com/chaijingchao1982/protobuf/internal/flags"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protodesc"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	"github.com/chaijingchao1982/protobuf/testing/protopack"
 
-	"zero/protobuf/types/descriptorpb"
+	"github.com/chaijingchao1982/protobuf/types/descriptorpb"
 )
 
 func init() {

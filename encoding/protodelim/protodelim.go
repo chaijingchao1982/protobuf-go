@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"io"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/proto"
 )
 
 // MarshalOptions is a configurable varint size-delimited marshaler.

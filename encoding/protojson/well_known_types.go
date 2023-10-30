@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"zero/protobuf/internal/encoding/json"
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/internal/strs"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/json"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/internal/strs"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 type marshalFunc func(encoder, protoreflect.Message) error

@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 
-	pb2 "zero/protobuf/internal/testprotos/textpb2"
-	"zero/protobuf/types/known/anypb"
-	"zero/protobuf/types/known/durationpb"
-	"zero/protobuf/types/known/emptypb"
-	"zero/protobuf/types/known/structpb"
-	"zero/protobuf/types/known/timestamppb"
-	"zero/protobuf/types/known/wrapperspb"
+	pb2 "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb2"
+	"github.com/chaijingchao1982/protobuf/types/known/anypb"
+	"github.com/chaijingchao1982/protobuf/types/known/durationpb"
+	"github.com/chaijingchao1982/protobuf/types/known/emptypb"
+	"github.com/chaijingchao1982/protobuf/types/known/structpb"
+	"github.com/chaijingchao1982/protobuf/types/known/timestamppb"
+	"github.com/chaijingchao1982/protobuf/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

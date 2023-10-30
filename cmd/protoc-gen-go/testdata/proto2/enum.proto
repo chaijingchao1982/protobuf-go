@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.protoc.proto2;
 
-option go_package = "zero/protobuf/cmd/protoc-gen-go/testdata/proto2";
+option go_package = "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/proto2";
 
 // EnumType1 comment.
 enum EnumType1 {
@@ -18,8 +18,8 @@ enum EnumType1 {
 
 enum EnumType2 {
   option allow_alias = true;
-  duplicate1 = 1;
-  duplicate2 = 1;
+  duplicate1         = 1;
+  duplicate2         = 1;
 
   reserved "RESERVED1";
   reserved "RESERVED2";
@@ -27,8 +27,8 @@ enum EnumType2 {
 }
 
 message EnumContainerMessage1 {
-  optional EnumType2 default_duplicate1 = 1 [default=duplicate1];
-  optional EnumType2 default_duplicate2 = 2 [default=duplicate2];
+  optional EnumType2 default_duplicate1 = 1 [default = duplicate1];
+  optional EnumType2 default_duplicate2 = 2 [default = duplicate2];
 
   // NestedEnumType1A comment.
   enum NestedEnumType1A {
@@ -36,9 +36,7 @@ message EnumContainerMessage1 {
     NESTED_1A_VALUE = 0;
   }
 
-  enum NestedEnumType1B {
-    NESTED_1B_VALUE = 0;
-  }
+  enum NestedEnumType1B { NESTED_1B_VALUE = 0; }
 
   message EnumContainerMessage2 {
     // NestedEnumType2A comment.
@@ -47,8 +45,6 @@ message EnumContainerMessage1 {
       NESTED_2A_VALUE = 0;
     }
 
-    enum NestedEnumType2B {
-      NESTED_2B_VALUE = 0;
-    }
+    enum NestedEnumType2B { NESTED_2B_VALUE = 0; }
   }
 }

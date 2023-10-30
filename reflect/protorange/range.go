@@ -9,12 +9,12 @@ import (
 	"bytes"
 	"errors"
 
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/internal/order"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protopath"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/internal/order"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protopath"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 )
 
 var (

@@ -7,7 +7,7 @@ package impl
 import (
 	"reflect"
 
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 type EnumInfo struct {

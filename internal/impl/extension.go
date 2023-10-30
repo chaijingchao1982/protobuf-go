@@ -9,8 +9,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
 )
 
 // ExtensionInfo implements ExtensionType.

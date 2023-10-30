@@ -8,13 +8,13 @@ import (
 	"math"
 	"testing"
 
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/internal/pragma"
-	"zero/protobuf/proto"
-	"zero/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/internal/pragma"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/testing/protopack"
 
-	testpb "zero/protobuf/internal/testprotos/test"
-	test3pb "zero/protobuf/internal/testprotos/test3"
+	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	test3pb "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
 )
 
 func TestEqual(t *testing.T) {

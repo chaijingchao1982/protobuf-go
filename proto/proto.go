@@ -5,8 +5,8 @@
 package proto
 
 import (
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 // Message is the top-level interface that all messages must implement.

@@ -7,14 +7,14 @@ package dynamicpb_test
 import (
 	"testing"
 
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
-	"zero/protobuf/testing/prototest"
-	"zero/protobuf/types/dynamicpb"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/testing/prototest"
+	"github.com/chaijingchao1982/protobuf/types/dynamicpb"
 
-	testpb "zero/protobuf/internal/testprotos/test"
-	test3pb "zero/protobuf/internal/testprotos/test3"
+	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	test3pb "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
 )
 
 func TestConformance(t *testing.T) {

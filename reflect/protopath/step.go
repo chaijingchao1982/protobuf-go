@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"zero/protobuf/internal/encoding/text"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/text"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 // StepKind identifies the kind of step operation.

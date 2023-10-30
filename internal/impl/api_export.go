@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"strconv"
 
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
 )
 
 // Export is a zero-length named type that exists only to export a set of

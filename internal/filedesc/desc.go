@@ -10,15 +10,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"zero/protobuf/internal/descfmt"
-	"zero/protobuf/internal/descopts"
-	"zero/protobuf/internal/encoding/defval"
-	"zero/protobuf/internal/encoding/messageset"
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/internal/pragma"
-	"zero/protobuf/internal/strs"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/internal/descfmt"
+	"github.com/chaijingchao1982/protobuf/internal/descopts"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/defval"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/messageset"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/internal/pragma"
+	"github.com/chaijingchao1982/protobuf/internal/strs"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 )
 
 // The types in this file may have a suffix:

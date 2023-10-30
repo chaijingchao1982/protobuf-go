@@ -7,7 +7,7 @@
 
 package protoreflect
 
-import "zero/protobuf/internal/pragma"
+import "github.com/chaijingchao1982/protobuf/internal/pragma"
 
 type valueType int
 

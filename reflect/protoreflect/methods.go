@@ -5,7 +5,7 @@
 package protoreflect
 
 import (
-	"zero/protobuf/internal/pragma"
+	"github.com/chaijingchao1982/protobuf/internal/pragma"
 )
 
 // The following types are used by the fast-path Message.ProtoMethods method.

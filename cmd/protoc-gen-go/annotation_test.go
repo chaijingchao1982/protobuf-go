@@ -9,14 +9,14 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/proto"
-	"zero/protobuf/testing/protocmp"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/testing/protocmp"
 
 	"github.com/google/go-cmp/cmp"
 
-	"zero/protobuf/types/descriptorpb"
+	"github.com/chaijingchao1982/protobuf/types/descriptorpb"
 )
 
 func TestAnnotations(t *testing.T) {

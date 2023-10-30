@@ -7,7 +7,7 @@ package proto
 import (
 	"reflect"
 
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 // Equal reports whether two messages are equal,

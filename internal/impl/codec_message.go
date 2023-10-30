@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"sort"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/encoding/messageset"
-	"zero/protobuf/internal/order"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/messageset"
+	"github.com/chaijingchao1982/protobuf/internal/order"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
 )
 
 // coderMessageInfo contains per-message information used by the fast-path functions.

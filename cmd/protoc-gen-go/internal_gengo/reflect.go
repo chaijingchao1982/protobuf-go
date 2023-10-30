@@ -10,13 +10,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"zero/protobuf/compiler/protogen"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protopath"
-	"zero/protobuf/reflect/protorange"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/compiler/protogen"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protopath"
+	"github.com/chaijingchao1982/protobuf/reflect/protorange"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 
-	"zero/protobuf/types/descriptorpb"
+	"github.com/chaijingchao1982/protobuf/types/descriptorpb"
 )
 
 func genReflectFileDescriptor(gen *protogen.Plugin, g *protogen.GeneratedFile, f *fileInfo) {

@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"sort"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/genid"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/genid"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 type mapInfo struct {

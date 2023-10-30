@@ -7,9 +7,9 @@ package main
 import (
 	"testing"
 
-	"zero/protobuf/internal/filedesc"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/internal/filedesc"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 )
 
 func TestRegistry(t *testing.T) {

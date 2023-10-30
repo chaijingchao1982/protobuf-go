@@ -11,7 +11,7 @@ import (
 	fmt "fmt"
 	math "math"
 
-	proto "zero/protobuf/internal/protolegacy"
+	proto "github.com/chaijingchao1982/protobuf/internal/protolegacy"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

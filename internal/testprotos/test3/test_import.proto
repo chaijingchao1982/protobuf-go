@@ -6,11 +6,8 @@ syntax = "proto3";
 
 package goproto.proto.test3;
 
-option go_package = "zero/protobuf/internal/testprotos/test3";
+option go_package = "github.com/chaijingchao1982/protobuf/internal/testprotos/test3";
 
-message ImportMessage {
-}
+message ImportMessage {}
 
-enum ImportEnum {
- IMPORT_ZERO = 0;
-}
+enum ImportEnum { IMPORT_ZERO = 0; }

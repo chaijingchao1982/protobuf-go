@@ -7,8 +7,8 @@ package proto
 import (
 	"fmt"
 
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
 )
 
 // Merge merges src into dst, which must be a message with the same descriptor.

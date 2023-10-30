@@ -10,8 +10,8 @@
 package order
 
 import (
-	protoreflect "zero/protobuf/reflect/protoreflect"
-	protoimpl "zero/protobuf/runtime/protoimpl"
+	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

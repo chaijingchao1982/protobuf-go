@@ -10,10 +10,10 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/internal/strs"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/internal/strs"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 // unmarshalScalar decodes a value of the given kind.

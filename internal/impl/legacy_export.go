@@ -11,9 +11,9 @@ import (
 	"math"
 	"reflect"
 
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/runtime/protoiface"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/runtime/protoiface"
 )
 
 // These functions exist to support exported APIs in generated protobufs.

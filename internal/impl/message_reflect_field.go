@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"sync"
 
-	"zero/protobuf/internal/flags"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/internal/flags"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 )
 
 type fieldInfo struct {

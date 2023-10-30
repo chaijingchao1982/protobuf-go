@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"testing"
 
-	"zero/protobuf/internal/encoding/defval"
-	"zero/protobuf/internal/filedesc"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/defval"
+	"github.com/chaijingchao1982/protobuf/internal/filedesc"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

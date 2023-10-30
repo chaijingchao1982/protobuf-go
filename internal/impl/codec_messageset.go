@@ -7,10 +7,10 @@ package impl
 import (
 	"sort"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/encoding/messageset"
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/internal/flags"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/messageset"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/internal/flags"
 )
 
 func sizeMessageSet(mi *MessageInfo, p pointer, opts marshalOptions) (size int) {

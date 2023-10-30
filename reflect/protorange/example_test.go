@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	"zero/protobuf/encoding/protojson"
-	"zero/protobuf/internal/detrand"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protopath"
-	"zero/protobuf/reflect/protorange"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/testing/protopack"
-	"zero/protobuf/types/known/anypb"
-	"zero/protobuf/types/known/timestamppb"
+	"github.com/chaijingchao1982/protobuf/encoding/protojson"
+	"github.com/chaijingchao1982/protobuf/internal/detrand"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protopath"
+	"github.com/chaijingchao1982/protobuf/reflect/protorange"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf/types/known/anypb"
+	"github.com/chaijingchao1982/protobuf/types/known/timestamppb"
 
-	newspb "zero/protobuf/internal/testprotos/news"
+	newspb "github.com/chaijingchao1982/protobuf/internal/testprotos/news"
 )
 
 func init() {

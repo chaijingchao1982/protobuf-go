@@ -11,16 +11,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/internal/detrand"
-	"zero/protobuf/internal/flags"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoregistry"
-	"zero/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/internal/detrand"
+	"github.com/chaijingchao1982/protobuf/internal/flags"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/testing/protopack"
 
-	pb2 "zero/protobuf/internal/testprotos/textpb2"
-	pb3 "zero/protobuf/internal/testprotos/textpb3"
-	"zero/protobuf/types/known/anypb"
+	pb2 "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb2"
+	pb3 "github.com/chaijingchao1982/protobuf/internal/testprotos/textpb3"
+	"github.com/chaijingchao1982/protobuf/types/known/anypb"
 )
 
 func init() {

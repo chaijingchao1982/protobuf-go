@@ -10,14 +10,14 @@ import (
 	"reflect"
 	"testing"
 
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/testing/protopack"
 
-	"zero/protobuf/internal/errors"
-	testpb "zero/protobuf/internal/testprotos/test"
-	test3pb "zero/protobuf/internal/testprotos/test3"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	test3pb "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
 )
 
 func TestDecode(t *testing.T) {

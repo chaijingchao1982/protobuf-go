@@ -7,7 +7,7 @@
 
 package strs
 
-import pref "zero/protobuf/reflect/protoreflect"
+import pref "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 
 func UnsafeString(b []byte) string {
 	return string(b)

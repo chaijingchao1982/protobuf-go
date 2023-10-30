@@ -7,9 +7,9 @@ package proto_test
 import (
 	"testing"
 
-	"zero/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/proto"
 
-	testpb "zero/protobuf/internal/testprotos/test"
+	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
 )
 
 func TestReset(t *testing.T) {

@@ -34,10 +34,10 @@
 package apipb
 
 import (
-	protoreflect "zero/protobuf/reflect/protoreflect"
-	protoimpl "zero/protobuf/runtime/protoimpl"
-	sourcecontextpb "zero/protobuf/types/known/sourcecontextpb"
-	typepb "zero/protobuf/types/known/typepb"
+	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	sourcecontextpb "github.com/chaijingchao1982/protobuf/types/known/sourcecontextpb"
+	typepb "github.com/chaijingchao1982/protobuf/types/known/typepb"
 	reflect "reflect"
 	sync "sync"
 )

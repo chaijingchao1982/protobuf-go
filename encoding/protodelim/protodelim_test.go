@@ -12,10 +12,10 @@ import (
 	"io"
 	"testing"
 
-	"zero/protobuf/encoding/protodelim"
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/testprotos/test3"
-	"zero/protobuf/testing/protocmp"
+	"github.com/chaijingchao1982/protobuf/encoding/protodelim"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
+	"github.com/chaijingchao1982/protobuf/testing/protocmp"
 
 	"github.com/google/go-cmp/cmp"
 )

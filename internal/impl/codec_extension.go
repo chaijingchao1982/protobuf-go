@@ -8,9 +8,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/errors"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/errors"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 type extensionFieldInfo struct {

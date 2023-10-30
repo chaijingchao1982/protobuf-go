@@ -8,18 +8,18 @@ import (
 	"testing"
 	"time"
 
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protopath"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
-	"zero/protobuf/testing/protocmp"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protopath"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/testing/protocmp"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	newspb "zero/protobuf/internal/testprotos/news"
-	anypb "zero/protobuf/types/known/anypb"
-	timestamppb "zero/protobuf/types/known/timestamppb"
+	newspb "github.com/chaijingchao1982/protobuf/internal/testprotos/news"
+	anypb "github.com/chaijingchao1982/protobuf/types/known/anypb"
+	timestamppb "github.com/chaijingchao1982/protobuf/types/known/timestamppb"
 )
 
 func mustMarshal(m proto.Message) []byte {

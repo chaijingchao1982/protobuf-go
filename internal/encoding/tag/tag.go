@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"zero/protobuf/internal/encoding/defval"
-	"zero/protobuf/internal/filedesc"
-	"zero/protobuf/internal/strs"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/defval"
+	"github.com/chaijingchao1982/protobuf/internal/filedesc"
+	"github.com/chaijingchao1982/protobuf/internal/strs"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 var byteType = reflect.TypeOf(byte(0))

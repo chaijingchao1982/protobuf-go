@@ -14,13 +14,10 @@ package goproto.proto.legacy;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "zero/protobuf/internal/testprotos/legacy/bug1052";
+option go_package = "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy/bug1052";
 
-enum Enum {
-  ZERO = 0;
-}
+enum Enum { ZERO = 0; }
 
 extend google.protobuf.MethodOptions {
   optional Enum extension_enum = 5000;
 }
-

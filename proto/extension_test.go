@@ -12,15 +12,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/runtime/protoimpl"
-	"zero/protobuf/testing/protocmp"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	"github.com/chaijingchao1982/protobuf/testing/protocmp"
 
-	legacy1pb "zero/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "zero/protobuf/internal/testprotos/test"
-	test3pb "zero/protobuf/internal/testprotos/test3"
-	descpb "zero/protobuf/types/descriptorpb"
+	legacy1pb "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	test3pb "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
+	descpb "github.com/chaijingchao1982/protobuf/types/descriptorpb"
 )
 
 func TestExtensionFuncs(t *testing.T) {

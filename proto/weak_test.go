@@ -7,13 +7,13 @@ package proto_test
 import (
 	"testing"
 
-	"zero/protobuf/internal/flags"
-	"zero/protobuf/internal/protobuild"
-	"zero/protobuf/proto"
-	"zero/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf/internal/flags"
+	"github.com/chaijingchao1982/protobuf/internal/protobuild"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/testing/protopack"
 
-	testpb "zero/protobuf/internal/testprotos/test"
-	weakpb "zero/protobuf/internal/testprotos/test/weak1"
+	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	weakpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test/weak1"
 )
 
 func init() {

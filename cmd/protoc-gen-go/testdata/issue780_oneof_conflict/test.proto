@@ -6,10 +6,10 @@ syntax = "proto2";
 
 package oneoftest;
 
-option go_package = "zero/protobuf/cmd/protoc-gen-go/testdata/issue780_oneof_conflict";
+option go_package = "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/issue780_oneof_conflict";
 
 message Foo {
-	oneof bar { // must be generated as Bar field in Foo struct
-		string get_bar = 1;
-	}
+  oneof bar {  // must be generated as Bar field in Foo struct
+    string get_bar = 1;
+  }
 }

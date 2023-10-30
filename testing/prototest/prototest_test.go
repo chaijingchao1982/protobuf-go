@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"testing"
 
-	"zero/protobuf/internal/flags"
-	"zero/protobuf/proto"
-	"zero/protobuf/runtime/protoimpl"
-	"zero/protobuf/testing/prototest"
+	"github.com/chaijingchao1982/protobuf/internal/flags"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	"github.com/chaijingchao1982/protobuf/testing/prototest"
 
-	irregularpb "zero/protobuf/internal/testprotos/irregular"
-	legacypb "zero/protobuf/internal/testprotos/legacy"
-	legacy1pb "zero/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "zero/protobuf/internal/testprotos/test"
-	_ "zero/protobuf/internal/testprotos/test/weak1"
-	_ "zero/protobuf/internal/testprotos/test/weak2"
-	test3pb "zero/protobuf/internal/testprotos/test3"
+	irregularpb "github.com/chaijingchao1982/protobuf/internal/testprotos/irregular"
+	legacypb "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy"
+	legacy1pb "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/test/weak1"
+	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/test/weak2"
+	test3pb "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
 )
 
 func Test(t *testing.T) {

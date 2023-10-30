@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"testing"
 
-	"zero/protobuf/internal/encoding/tag"
-	"zero/protobuf/internal/filedesc"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protodesc"
-	"zero/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/internal/encoding/tag"
+	"github.com/chaijingchao1982/protobuf/internal/filedesc"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protodesc"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

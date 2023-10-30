@@ -5,18 +5,18 @@
 package proto_test
 
 import (
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/impl"
-	"zero/protobuf/internal/protobuild"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
-	"zero/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/impl"
+	"github.com/chaijingchao1982/protobuf/internal/protobuild"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/testing/protopack"
 
-	legacypb "zero/protobuf/internal/testprotos/legacy"
-	requiredpb "zero/protobuf/internal/testprotos/required"
-	testpb "zero/protobuf/internal/testprotos/test"
-	test3pb "zero/protobuf/internal/testprotos/test3"
+	legacypb "github.com/chaijingchao1982/protobuf/internal/testprotos/legacy"
+	requiredpb "github.com/chaijingchao1982/protobuf/internal/testprotos/required"
+	testpb "github.com/chaijingchao1982/protobuf/internal/testprotos/test"
+	test3pb "github.com/chaijingchao1982/protobuf/internal/testprotos/test3"
 )
 
 type testProto struct {

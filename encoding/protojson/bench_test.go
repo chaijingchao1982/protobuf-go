@@ -7,9 +7,9 @@ package protojson_test
 import (
 	"testing"
 
-	"zero/protobuf/encoding/protojson"
+	"github.com/chaijingchao1982/protobuf/encoding/protojson"
 
-	"zero/protobuf/types/known/durationpb"
+	"github.com/chaijingchao1982/protobuf/types/known/durationpb"
 )
 
 func BenchmarkUnmarshal_Duration(b *testing.B) {

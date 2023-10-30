@@ -15,18 +15,18 @@ import (
 	"testing"
 	"time"
 
-	"zero/protobuf/encoding/protojson"
-	"zero/protobuf/encoding/prototext"
-	"zero/protobuf/proto"
-	"zero/protobuf/reflect/protoreflect"
-	"zero/protobuf/reflect/protoregistry"
+	"github.com/chaijingchao1982/protobuf/encoding/protojson"
+	"github.com/chaijingchao1982/protobuf/encoding/prototext"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	"github.com/chaijingchao1982/protobuf/reflect/protoregistry"
 
-	benchpb "zero/protobuf/internal/testprotos/benchmarks"
-	_ "zero/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
-	_ "zero/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
-	_ "zero/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
-	_ "zero/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
-	_ "zero/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
+	benchpb "github.com/chaijingchao1982/protobuf/internal/testprotos/benchmarks"
+	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
+	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
+	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
+	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
+	_ "github.com/chaijingchao1982/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
 )
 
 func BenchmarkWire(b *testing.B) {

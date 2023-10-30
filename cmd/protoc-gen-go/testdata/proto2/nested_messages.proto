@@ -6,14 +6,13 @@ syntax = "proto2";
 
 package goproto.protoc.proto2;
 
-option go_package = "zero/protobuf/cmd/protoc-gen-go/testdata/proto2";
+option go_package = "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/proto2";
 
 message Layer1 {
   message Layer2 {
-    message Layer3 {
-    }
+    message Layer3 {}
     optional Layer3 l3 = 1;
   }
-  optional Layer2 l2 = 1;
+  optional Layer2 l2        = 1;
   optional Layer2.Layer3 l3 = 2;
 }

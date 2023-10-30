@@ -8,9 +8,9 @@
 package test3
 
 import (
-	protoreflect "zero/protobuf/reflect/protoreflect"
-	protoimpl "zero/protobuf/runtime/protoimpl"
-	descriptorpb "zero/protobuf/types/descriptorpb"
+	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
+	descriptorpb "github.com/chaijingchao1982/protobuf/types/descriptorpb"
 	reflect "reflect"
 )
 

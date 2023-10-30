@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.protoc.fieldnames;
 
-option go_package = "zero/protobuf/cmd/protoc-gen-go/testdata/fieldnames";
+option go_package = "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/fieldnames";
 
 // Assorted edge cases in field name conflict resolution.
 //
@@ -15,26 +15,26 @@ option go_package = "zero/protobuf/cmd/protoc-gen-go/testdata/fieldnames";
 // changes in it.
 message Message {
   // Various CamelCase conversions.
-  optional string field_one = 1;
-  optional string FieldTwo = 2;
-  optional string fieldThree = 3;
+  optional string field_one   = 1;
+  optional string FieldTwo    = 2;
+  optional string fieldThree  = 3;
   optional string field__four = 4;
 
   // Field names that conflict with standard methods on the message struct.
-  optional string descriptor = 10;
-  optional string marshal = 11;
-  optional string unmarshal = 12;
+  optional string descriptor    = 10;
+  optional string marshal       = 11;
+  optional string unmarshal     = 12;
   optional string proto_message = 13;
 
   // Field names that conflict with each other after CamelCasing.
-  optional string CamelCase = 20;
-  optional string CamelCase_ = 21;
-  optional string camel_case = 22; // conflicts with 20, 21
-  optional string CamelCase__ = 23; // conflicts with 21, 21, renamed 22
+  optional string CamelCase   = 20;
+  optional string CamelCase_  = 21;
+  optional string camel_case  = 22;  // conflicts with 20, 21
+  optional string CamelCase__ = 23;  // conflicts with 21, 21, renamed 22
 
   // Field with a getter that conflicts with another field.
   optional string get_name = 30;
-  optional string name = 31;
+  optional string name     = 31;
 
   // Oneof that conflicts with its first field: The oneof is renamed.
   oneof oneof_conflict_a {
@@ -44,7 +44,7 @@ message Message {
   // Oneof that conflicts with its second field: The field is renamed.
   oneof oneof_conflict_b {
     string oneof_no_conflict = 50;
-    string OneofConflictB = 51;
+    string OneofConflictB    = 51;
   }
 
   // Oneof with a field name that conflicts with a nested message.

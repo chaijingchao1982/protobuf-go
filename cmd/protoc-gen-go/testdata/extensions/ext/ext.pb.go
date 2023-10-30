@@ -8,10 +8,10 @@
 package ext
 
 import (
-	base "zero/protobuf/cmd/protoc-gen-go/testdata/extensions/base"
-	extra "zero/protobuf/cmd/protoc-gen-go/testdata/extensions/extra"
-	protoreflect "zero/protobuf/reflect/protoreflect"
-	protoimpl "zero/protobuf/runtime/protoimpl"
+	base "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/extensions/base"
+	extra "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/extensions/extra"
+	protoreflect "github.com/chaijingchao1982/protobuf/reflect/protoreflect"
+	protoimpl "github.com/chaijingchao1982/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

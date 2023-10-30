@@ -136,8 +136,8 @@ import (
 	"fmt"
 	"strings"
 
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/pragma"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/pragma"
 )
 
 type doNotImplement pragma.DoNotImplement

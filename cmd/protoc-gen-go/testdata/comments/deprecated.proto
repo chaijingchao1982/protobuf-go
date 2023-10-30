@@ -7,14 +7,14 @@ syntax = "proto3";
 package goproto.protoc.comments;
 
 option deprecated = true;
-option go_package = "zero/protobuf/cmd/protoc-gen-go/testdata/comments";
+option go_package = "github.com/chaijingchao1982/protobuf/cmd/protoc-gen-go/testdata/comments";
 
 message DeprecatedMessage {
-  option deprecated = true;
-  string deprecated_field = 1 [deprecated=true];
+  option deprecated       = true;
+  string deprecated_field = 1 [deprecated = true];
 }
 
 enum DeprecatedEnum {
   option deprecated = true;
-  DEPRECATED = 0 [deprecated=true];
+  DEPRECATED        = 0 [deprecated = true];
 }

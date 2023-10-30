@@ -5,13 +5,13 @@
 package proto_test
 
 import (
-	"zero/protobuf/encoding/protowire"
-	"zero/protobuf/internal/flags"
-	"zero/protobuf/proto"
-	"zero/protobuf/testing/protopack"
+	"github.com/chaijingchao1982/protobuf/encoding/protowire"
+	"github.com/chaijingchao1982/protobuf/internal/flags"
+	"github.com/chaijingchao1982/protobuf/proto"
+	"github.com/chaijingchao1982/protobuf/testing/protopack"
 
-	messagesetpb "zero/protobuf/internal/testprotos/messageset/messagesetpb"
-	msetextpb "zero/protobuf/internal/testprotos/messageset/msetextpb"
+	messagesetpb "github.com/chaijingchao1982/protobuf/internal/testprotos/messageset/messagesetpb"
+	msetextpb "github.com/chaijingchao1982/protobuf/internal/testprotos/messageset/msetextpb"
 )
 
 func init() {

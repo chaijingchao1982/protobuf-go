@@ -10,7 +10,7 @@ package protoreflect
 import (
 	"unsafe"
 
-	"zero/protobuf/internal/pragma"
+	"github.com/chaijingchao1982/protobuf/internal/pragma"
 )
 
 type (
